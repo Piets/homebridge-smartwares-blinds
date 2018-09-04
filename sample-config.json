@@ -1,0 +1,24 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CB:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "000-11-222"
+    },
+
+    "description": "My homebridge server",
+
+    "platforms": [],
+
+    "accessories": [{
+		"accessory": "Smartwares",
+		"name": "Blinds",
+		"manufacturer": "Smartwares",
+		"model": "SH5-RBU-04A",
+		"serial": "001-001-001",
+		"transmitter": "34567890",
+		"device": "0",
+		"motion_time": 22000,
+		"pin": 0
+	}]
+}
